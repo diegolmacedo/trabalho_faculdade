@@ -1,0 +1,70 @@
+* {
+	font-family: Verdana, Arial, sans-serif;
+	margin: auto;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f0ffff;
+	margin: 20px 100px;
+}
+
+p, li {
+	padding: 5px;
+}
+
+img {
+	float: left;
+	height: 200px;
+	width: 150px;
+}
+
+#contato {
+	padding: 30px 350px;
+}
+
+input[type=submit] {
+	width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.nav {
+	overflow: hidden;
+	background-color: black;
+}
+.nav a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.nav a:hover {
+	background-color: gray;
+	color: black;
+}
+
+.cabecalho {
+	background-color: #4f4f4f;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	font-size: 15px;
+}
+
+.conteudo {
+	background-color: #E8E8E8;
+	padding: 20px;
+	float: left;
+	width: 100%;	
+}
+
+.rodape {
+	background-color: #4f4f4f;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	clear: left;
+}

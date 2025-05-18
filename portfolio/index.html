@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Leonardi daVinci</title>
+		<style>
+			body {
+				margin: 0
+			}
+			
+			.container {
+				display: grid;
+			}
+			
+			header {
+				grid-column-start: 1;
+				grid-column-end: 12;
+				background-color: #506E6A;
+			}
+			
+			.menu {
+				grid-column-start: 6;
+				grid-column-end: 12;
+				justify-content: center;
+				gap: 20px;
+			}
+			
+			.imagem_leo {
+				grid-column-start: 1;
+				grid-column-end: 3;
+			}
+			
+			.principal {
+				grid-column-start: 4;
+				grid-column-end: 12;
+				padding-left: 15px;
+				padding-right: 15px;
+				text-align: justify;
+			}
+			
+			footer {
+				grid-column-start: 1;
+				grid-column-end: 12;
+				background-color: #506E6A;
+				color: white;
+				text-align: center;
+			}
+			
+			ul {
+				list-style-type: none;
+				color: #506E6A;
+			}
+			
+			a, a:link {
+				text-decoration: none;
+				padding: 8px 16px;
+				border: solid #506E6A 1px;
+			}
+			
+			li {
+				float: left;
+			}
+			
+			a:hover {
+				background-color: #506E6A;
+				color: white;
+			}
+			
+			
+		</style>
+	</head>
+	
+	<body>
+		<header class="container">
+			<h1 style="color:white; text-align:center">Biografia Leonardo daVinci</h1>
+		</header>
+		<nav class="container menu">
+			<ul>
+				<li><a href="index.html">Biografia</a></li>
+				<li><a href="obras.html">Obras</a></li>
+				<li><a href="curiosidades.html">Curiosidades</a></li>
+			</ul>
+		</nav>
+		<div class="container wrapper">
+			<aside class="imagem_leo">
+				<img src="leonardo-da-vinci.png" alt="Leonardo daVinci">
+				<div class="infos">
+					<p><strong>Ocupação</strong>: Pintor italiano</p>
+					<p><strong>Data do Nascimento</strong>: 15/04/1452</p>
+					<p><strong>Data da Morte</strong>: 02/05/1519 (67 anos)</p>
+				</div>
+			</aside>
+		
+		<section class="principal">
+			<h1>Leonardo daVinci</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque accumsan nunc at odio molestie, sit amet auctor orci ultrices. Proin dapibus tristique lobortis. Suspendisse varius laoreet malesuada. Aenean sed malesuada felis, ac pellentesque ligula. Proin libero est, gravida ac lobortis viverra, scelerisque non neque. Nam ut pellentesque nisi, eget rhoncus mi. Fusce hendrerit eu ante at fringilla. </p>
+			<p>Duis in euismod nisi. Aenean ac libero vitae metus venenatis luctus. Maecenas a massa imperdiet, sodales massa sed, tincidunt nunc. Sed vitae mattis massa. Nullam ut convallis quam. Ut porttitor bibendum est eu cursus. Etiam vehicula sapien sit amet molestie hendrerit. Duis viverra congue imperdiet. Donec porta lacus et euismod fringilla. Duis vel purus non nibh porta tempor quis at dolor.</p>
+			<p>Integer in ipsum convallis, blandit risus nec, luctus libero. Vivamus imperdiet convallis ligula, a finibus erat. Proin nec augue rutrum, blandit ante vitae, sollicitudin urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras sollicitudin feugiat orci, ut tempus lorem venenatis a. Vivamus aliquam vestibulum vestibulum. Integer pharetra aliquam dolor, quis sagittis justo ultrices nec. Nam et massa consequat, maximus nunc ac, consectetur eros. Vestibulum finibus ipsum sit amet felis sodales sodales. In semper pretium imperdiet. Proin lacinia ultricies fermentum. Etiam vitae tempor sem. Donec posuere dignissim eros at gravida. </p>
+		</section>
+		<footer class="container">
+			<h1>Desenvolvido para fins educacionais</h1>
+		</footer>
+		</div>
+	</body>
+</html>
